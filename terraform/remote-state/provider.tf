@@ -9,6 +9,7 @@ terraform {
     bucket = "devopspractice-remote-state"
     key    = "remote-state-demo"
     region = "us-east-1"
+    dynamodb_table = "remote-data-lock"
   }
 }
 #provide authentication here
